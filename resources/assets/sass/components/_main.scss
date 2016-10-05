@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.justify-text {
+  text-align: justify;
+}
+
+.center-text {
+    text-align: center;
+}
+.top-block {
+  &.container {
+    margin-top: 20px; }
+
+}
+
+.margin-blocks {
+  img {
+    margin: 10px auto;
+  }
+}
+.btn-dual-line {
+  line-height: 26px !important;
+  padding: 5px 35px !important;
+  height: auto !important;
+}

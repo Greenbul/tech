@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+footer {
+    &.page-footer {
+        ul {
+            li {
+                &.socials {
+                    padding-top: 10px;
+                }
+            }
+        }
+    }
+}

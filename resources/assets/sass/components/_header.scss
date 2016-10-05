@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+header {
+    background-color: $header-background-color;
+    overflow: hidden;
+
+    .container {
+        min-height: $header-min-height;
+    }
+
+    h1 {
+        font-size: $h3-fontsize;
+        font-weight: 300;
+        //$h1-fontsize: 4.2rem !default;
+        //$h2-fontsize: 3.56rem !default;
+        //$h3-fontsize: 2.92rem !default;
+        //$h4-fontsize: 2.28rem !default;
+        //$h5-fontsize: 1.64rem !default;
+        //$h6-fontsize: 1rem !default;
+    }
+
+    .order-consultant {
+        margin-top: 20px;
+    }
+
+    .header-phone {
+        margin-top: 2.92rem;
+    }
+}
